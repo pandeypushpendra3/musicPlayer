@@ -1,0 +1,24 @@
+.conatiner-main-artist{
+    /* border:1px solid blue; */
+    width:80vw;
+    margin:auto
+}
+.musicAlbumName{
+    font-size:1.5rem;
+    
+}
+.songName{
+    display:grid;
+    grid-template-columns: 50% 50% ;
+    /* border:1px solid black; */
+    
+}
+.songName >div{
+    width:50%;
+    margin:auto;
+    /* height:10px; */
+    /* border:1px solid black */
+}
+.coverphotoName{
+    width:15vw;
+}

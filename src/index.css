@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background:url("https://free4kwallpapers.com/uploads/wallpaper/music-wallpaper-1024x768-wallpaper.jpg");
+  background-repeat:no-repeat;
+background-size:cover; 
+
 }
 
 code {

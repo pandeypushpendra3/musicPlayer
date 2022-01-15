@@ -1,0 +1,18 @@
+.container-main{
+    width:99.5vw;
+   
+    /* gap:15rem; */
+/* background:url("https://d287ku8w5owj51.cloudfront.net/inline/products/23401/X3_2_lifestyle_2.jpg?width=750") ;    */
+background-repeat:no-repeat;
+background-size:cover; 
+padding-bottom:3rem;
+
+/* margin-top:5rem; */
+}
+.container-main-2{
+    display:grid;
+    grid-template-columns: 50% 50% ;
+grid-gap:15px;
+    /* margin-top:5rem; */
+    padding:1.5rem
+}
