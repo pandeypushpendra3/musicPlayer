@@ -11,6 +11,8 @@ const Navbar = () => {
   const [isError, setError] = useState(false);
   const [users, setUsers] = useState([]);
 
+  const[data,setData]= useState("")
+
   useEffect(()=>{
     setIsLoading(true);
     setError(false);
@@ -38,7 +40,7 @@ const Navbar = () => {
 
       })
   };
-console.log(query)
+// console.log(query)
     return (<>
         <div className="navbar ">
         <div><Link to="/"><img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/music-logo-design-template-2d750dbc5c38729c8004e69d16745448_screen.jpg?ts=1604495304" alt="pMusic"/></Link></div>
@@ -60,7 +62,14 @@ console.log(query)
         </div>
         <div className="search">
         {users.map((item) => (
-          <div key={item.id} >{item.MusicAlbumName}</div>
+          <>
+        
+          <Link to={{pathname:`/Album/${item.id}`,state:{artistData:users}}}>
+          <div key={item.id} onClick={()=>setQuery("")}>{item.MusicAlbumName}</div>
+          </Link>
+          </>
+          
+         
         ))}
       </div>
          

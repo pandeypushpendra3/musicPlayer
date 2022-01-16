@@ -15,6 +15,7 @@ function App() {
 <Route exact path="/"><Home/></Route>
 <Route path="/login"><Login/></Route>
 <Route path="/Album/:id" component={ArtistSong} ></Route>
+{/* <Route path="/Album/:id" component={ArtistSong} ></Route> */}
     </Switch>
     
     </div>
