@@ -9,10 +9,10 @@ import {ArtistSong} from "./components/ArtistsSong"
 function App() {
   return (
     <div className="App">
+    <Navbar/>
     <Switch>
-<Route exact path="/"><Navbar/>
-</Route>
-<Route  path="/home"><Home/></Route>
+
+<Route exact path="/"><Home/></Route>
 <Route path="/login"><Login/></Route>
 <Route path="/Album/:id" component={ArtistSong} ></Route>
     </Switch>

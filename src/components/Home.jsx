@@ -25,9 +25,7 @@ const Home = () => {
 
 return (
         <>
-            <div>
-            <Link to="/home"><Navbar/></Link>
-            </div>
+            
       <div className="container-main">
       <div className="container-main-2">
       {

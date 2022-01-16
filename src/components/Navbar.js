@@ -39,7 +39,7 @@ const Navbar = () => {
       })
   };
 console.log(query)
-    return (
+    return (<>
         <div className="navbar ">
         <div><Link to="/"><img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/music-logo-design-template-2d750dbc5c38729c8004e69d16745448_screen.jpg?ts=1604495304" alt="pMusic"/></Link></div>
         <div className="search">
@@ -48,7 +48,7 @@ console.log(query)
             <button onClick={handleSearch}>Search</button>
         </div>
         <div className="navbar-home">
-        <Link to="/home">
+        <Link to="/">
         <button>
            Home
         </button>
@@ -63,8 +63,13 @@ console.log(query)
           <div key={item.id} >{item.MusicAlbumName}</div>
         ))}
       </div>
-            
+         
         </div>
+        {/* <Link to="/home">
+        <button>Listener</button> 
+        </Link> */}
+        
+        </>
     )
 }
 export {Navbar}
