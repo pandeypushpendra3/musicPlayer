@@ -40,7 +40,7 @@ const Navbar = () => {
 
       })
   };
-// console.log(query)
+
     return (<>
         <div className="navbar ">
         <div><Link to="/"><img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/music-logo-design-template-2d750dbc5c38729c8004e69d16745448_screen.jpg?ts=1604495304" alt="pMusic"/></Link></div>

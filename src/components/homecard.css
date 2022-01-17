@@ -9,6 +9,7 @@
     background-color: #242B2E;
     border-radius: 5px;
     margin-left: 142px;
+    box-shadow: 10px 5px 5px  black;
 }
 .Album-pic{
       width: 96%;
