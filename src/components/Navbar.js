@@ -28,6 +28,9 @@ const Navbar = () => {
   const handleSearch = () => {
     setIsLoading(true);
     setError(false);
+    if(query===""){
+      return null
+    }
     axios.get(`http://localhost:3009/Album?q=${query}`)
       .then((res) => {
         setUsers(res.data);
@@ -46,17 +49,14 @@ const Navbar = () => {
         <div><Link to="/"><img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/music-logo-design-template-2d750dbc5c38729c8004e69d16745448_screen.jpg?ts=1604495304" alt="pMusic"/></Link></div>
         <div className="search">
             <input type="text" placeholder="Search for Great Artist" value={query}
-          onChange={(e) => setQuery(e.target.value)}/>
-            <button onClick={handleSearch}>Search</button>
+          onChange={(e) => setQuery(e.target.value)} class="form-control"/>
+            <button type="button" class="btn btn-info" onClick={handleSearch}>Search</button>
+        
         </div>
         <div className="navbar-home">
-        <Link to="/">
-        <button>
-           Home
-        </button>
-        </Link>
+      
         <Link to="/login">
-        <button >Login
+        <button type="button" class="btn btn-danger" >Login
         </button>
         </Link>
         </div>

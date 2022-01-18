@@ -1,0 +1,194 @@
+[
+    {    "id":1,
+        "MusicAlbumName":"Mr. Nair",
+        "Artist":"Raftar",
+        "Year":2019,
+        "genre":"Hip-hop",
+        "songs":[{
+            "songsname":"Me and My pen",
+            "duration":"3:20"
+        },{
+            "songsname":"Dilli Waali Baatcheet",
+            "duration":"3:21"
+        },
+    {
+        "songsname":"Main Wahi Hoon",
+        "duration":"2:50"
+    },{
+        "songsname":"Damn",
+        "duration":"3:34"
+    }],"coverphoto":"https://pbs.twimg.com/profile_images/1457620129798311937/_nW6ge5I_400x400.jpg"
+    },
+    { "id":2,
+        "MusicAlbumName":"ONE-Original-Never-End",
+        "Artist":"Badshah",
+        "Year":2018,
+        "genre":"Pop-Music",
+        "songs":[{
+            "songsname":"kya kehte ho",
+            "duration":"2:54"
+        },{
+            "songsname":"Right up there",
+            "duration":"3:23"
+        },
+    {
+        "songsname":"Nain",
+        "duration":"4:31"
+    }],
+"coverphoto":"https://img.indiefolio.com//filters:format(webp):fill(transparent)/project/thumb/57c8551a8683b036abc5e611cacfd693.jpg"
+
+    },
+        { "id":3,
+            "MusicAlbumName":"Hit",
+            "Artist":"Jubin Nautiyal",
+            "Year":2020,
+            "genre":"Romantic",
+            "songs":[{
+                "songsname":"Humnava",
+                "duration":"5:20"
+            },{
+                "songsname":"Tujhe kitna chahe",
+                "duration":"5:30"
+            },
+        {
+            "songsname":"Tum hi aana",
+            "duration":"4:13"
+        },{
+            "songsname":"Lo safar",
+            "duration":"3:40"
+        }],
+        "coverphoto":"https://www.bollywoodhungama.com/wp-content/uploads/2021/09/WhatsApp-Image-2021-09-23-at-7.56.11-PM-1.jpeg"
+                  
+    },{"id":4,
+        "MusicAlbumName":"BestHit",
+        "Artist":"Arijit Singh",
+        "Year":2018,
+        "genre":"Sufi",
+        "songs":[{
+            "songsname":"Agar Tum Sath ho",
+            "duration":"3:29"
+        },{
+            "songsname":"Hawayein",
+            "duration":"3:34"
+        },
+    {
+        "songsname":"Soch na sake",
+        "duration":"4:55"
+    },{
+        "songsname":"Enna sona",
+        "duration":"3:45"
+    }],"coverphoto":"https://images.indianexpress.com/2021/05/arijit-singh-1200.jpg"
+    },{ "id":5,
+        "MusicAlbumName":"The Chad Mitchell Trio",
+        "Artist":"Chad mitchell",
+        "Year":1988,
+        "genre":"pop-folk",
+        "songs":[{
+            "songsname":"Dubarry Done Gone Again",
+            "duration":"2:23"
+        },{
+            "songsname":"The Marvelous Toy",
+            "duration":"2:46"
+        },
+    {
+        "songsname":"Alma Mate",
+        "duration":"3:00"
+    },{
+        "songsname":"Four Strong Winds",
+        "duration":"3:30"
+    }],
+    "coverphoto":"https://target.scene7.com/is/image/Target/GUEST_d8e3baef-f567-4651-93ab-c00e44430eda?wid=488&hei=488&fmt=pjpeg"
+    },{ "id":6,
+        "MusicAlbumName":"The Fame Monster ",
+        "Artist":"Lady Gaga",
+        "Year":2009,
+        "genre":"pop",
+        "songs":[{
+            "songsname":"Bad Romance",
+            "duration":"04:54"
+        },{
+            "songsname":"Alejandro",
+            "duration":"4:34"
+        },
+    {
+        "songsname":"Monster",
+        "duration":"4:09"
+    },{
+        "songsname":"Speechless",
+        "duration":"4:30"
+    }],
+    "coverphoto":"https://i.pinimg.com/originals/14/48/a1/1448a172c1675b2ffbd34c54b16059c8.jpg"
+    },
+    { "id":7,
+        "MusicAlbumName":"The Fall",
+        "Artist":"Nora Jones",
+        "Year":2009,
+        "genre":"pop",
+        "songs":[{
+            "songsname":"Chasing Pirates",
+            "duration":"02:54"
+        },{
+            "songsname":"Even though",
+            "duration":"3:52"
+        },
+    {
+        "songsname":"Light as a Feather",
+        "duration":"3:52"
+    },{
+        "songsname":"Young Blood",
+        "duration":"3:38"
+    },{
+        "songsname":"Waiting",
+        "duration":"3:31"
+    }],
+    "coverphoto":"https://m.media-amazon.com/images/I/81Y66IYkHHL._SL1300_.jpg"
+    },{
+        "id":8,
+        "MusicAlbumName":"Slumdog Millionaire",
+        "Artist":"A.R. Rahman",
+        "Year":2008,
+        "genre":"Stage & Screen",
+        "songs":[{
+            "songsname":"O... saya",
+            "duration":"03:33"
+        },{
+            "songsname":"Riots",
+            "duration":"1:59"
+        },
+    {
+        "songsname":"Mausam &Escape",
+        "duration":"3:52"
+    },{
+        "songsname":"Paper Planes",
+        "duration":"3:38"
+    },{
+        "songsname":"Jai Ho",
+        "duration":"5:19"
+    }],
+    "coverphoto":"https://www.penguinreaders.co.uk/wp-content/uploads/2021/05/9780241493205.jpg"
+    },{
+        "id":9,
+        "MusicAlbumName":"Mohd. Rafi",
+        "Artist":"Mohd.Rafi",
+        "Year":2004,
+        "genre":"International",
+        "songs":[{
+            "songsname":"Chand Mera Dil",
+            "duration":"03:12"
+        },{
+            "songsname":"Chal Ud Jare Panchhi",
+            "duration":"2:59"
+        },
+    {
+        "songsname":"Taarif Karun Kya Uski ",
+        "duration":"5:22"
+    },{
+        "songsname":"Dil Ka Bhanwar Kare Pukar",
+        "duration":"3:19"
+    },{
+        "songsname":"Yeh Ladka Hai Allah",
+        "duration":"5:32"
+    }],
+    "coverphoto":"https://gumlet.assettype.com/Prabhatkhabar%2F2021-07%2F2b03cc07-b093-43b9-8cf5-e4fb67a67809%2Fmd_rafi_10.jpg?format=webp&w=400&dpr=2.6"
+    }
+]

@@ -4,12 +4,13 @@
     margin:auto
 }
 .musicAlbumName{
-    font-size:1.5rem;
+    font-size:2.5rem;
     
 }
 .songName{
     display:grid;
     grid-template-columns: 50% 50% ;
+    font-size: 1.5em;
     /* border:1px solid black; */
     
 }
@@ -20,5 +21,5 @@
     /* border:1px solid black */
 }
 .coverphotoName{
-    width:15vw;
+    width:25vw;
 }

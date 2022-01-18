@@ -7,6 +7,7 @@
   display: grid;
   width: 99.5vw;
   border: 1px solid black;
+  background:#95A5A6;
   margin: auto;
   /* background:url("https://ma-hub.imgix.net/wp-images/2019/05/04185051/royalty-free-music-Background.jpg?w=800&h=400&auto=format"); */
   grid-template-columns: 10% 60% 25%;
@@ -20,6 +21,7 @@ img {
 .search {
   margin-left: 5em;
   margin-top: 1.2em;
+  display:flex;
   
 }
 .search > input {
@@ -31,7 +33,7 @@ img {
 
 }
 .search > button {
-  padding: 0.7rem;
+  padding: 0.8rem;
   background:#FFCC80;
   border-radius: 0.5rem;
 }
@@ -52,6 +54,6 @@ img {
   color: white;
   padding: 0 0.5em;
   border-radius: 0.5em;
-  background-color:rgb(126, 128, 0);
+  /* background-color:rgb(126, 128, 0); */
 
 }
